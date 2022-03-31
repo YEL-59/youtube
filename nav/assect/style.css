@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+nav ul li a:hover{
+    color: chocolate;
+    font-weight: 600px;
+}
+.small-container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+}
